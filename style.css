@@ -1,0 +1,424 @@
+.sig{
+    background-color:#ff1493 ; /* Pink color */
+    color: white; /* Text color */;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .sig:hover {
+    background-color: white; /* Darker pink on hover */
+    color: #ff1493; /* Ensure text remains white on hover */
+  }
+.log{
+    background-color: white; /* Pink color */
+    color: #ff1493; /* Text color */
+    border-color:#ff1493 ;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.log:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+    color: white; /* Ensure text remains white on hover */
+}
+.dropdown-toggle::after{
+  color: #ff1493;
+}
+.food{
+  background-color: #ff1493;
+  color: white;
+  border-radius: 8px;
+  border-color: #ff1493;
+  width:110px;
+  padding: 10px;
+}
+.form-control{
+  height: 100%;
+  
+}
+.heading{
+font-weight: 700;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 40px;
+}
+.overlap{
+  position: relative;
+}
+
+.text-box {
+  position:absolute;
+  top: 300px; /* Adjust this value to position the text box */
+  left: 20px; /* Adjust this value to position the text box */
+  background-color:white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin-left: 100px;
+
+}
+.over{
+  background-color: #ff1493;
+  border-color: #ff1493;}
+h6{
+  text-align: left;
+}
+.note{
+  text-align: left;
+  font-size: 23px;
+  font-weight:600;
+}
+p{
+  text-align: left;
+}
+.card{
+  border-radius: 20px;
+  cursor: pointer;
+}
+.card:hover{
+  transform: scale(1.2);
+}
+.image-wrapper {
+  border: 5px ; /* Static border */
+  border-radius: 20px;
+  overflow: hidden; /* Hide the overflow of the image */
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.image-wrapper img:hover {
+  transform: scale(1.2); /* Zoom in by 20% */
+}
+.names1{
+  position:absolute;
+  background-color:white;
+  color:rgb(37, 35, 35);
+  border-radius: 10px;
+  top: 1755px; 
+  left: 105px; 
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+ }
+ 
+  .names2{
+    position:absolute;
+    background-color:white;
+    color:rgb(37, 35, 35);
+    border-radius: 10px;
+    top: 1755px; 
+    left: 390px; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .names3{
+    position:absolute;
+    background-color:white;
+    color:rgb(37, 35, 35);
+    border-radius: 10px;
+    top: 1755px; 
+    left: 675px; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .names4{
+    position:absolute;
+    background-color:white;
+    color:rgb(37, 35, 35);
+    border-radius: 10px;
+    top: 1755px; 
+    left: 960px; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .names5{
+    position:absolute;
+    background-color:white;
+    color:rgb(37, 35, 35);
+    border-radius: 10px;
+    top: 1980px; 
+    left: 105px; 
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    }
+    .names6{
+      position:absolute;
+      background-color:white;
+      color:rgb(37, 35, 35);
+      border-radius: 10px;
+      top: 1980px; 
+      left: 390px; 
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    .names7{
+      position:absolute;
+      background-color:white;
+      color:rgb(37, 35, 35);
+      border-radius: 10px;
+      top: 1980px; 
+      left: 675px; 
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+    
+    .names8{
+      position:absolute;
+      background-color:white;
+      color:rgb(37, 35, 35);
+      border-radius: 10px;
+      top: 1980px; 
+      left: 960px; 
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .names9{
+      position:absolute;
+      background-color:white;
+      color:rgb(37, 35, 35);
+      border-radius: 10px;
+      top: 2200px; 
+      left: 105px; 
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      }
+      .names10{
+        position:absolute;
+        background-color:white;
+        color:rgb(37, 35, 35);
+        border-radius: 10px;
+        top: 2200px; 
+        left: 390px; 
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      .names11{
+        position:absolute;
+        background-color:white;
+        color:rgb(37, 35, 35);
+        border-radius: 10px;
+        top: 2200px; 
+        left: 675px; 
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      
+      .names12{
+        position:absolute;
+        background-color:white;
+        color:rgb(37, 35, 35);
+        border-radius: 10px;
+        top: 2200px; 
+        left: 960px; 
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      .names13{
+        position:absolute;
+        background-color:white;
+        color:rgb(37, 35, 35);
+        border-radius: 10px;
+        top: 2420px; 
+        left: 105px; 
+        padding: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        }
+        .names14{
+          position:absolute;
+          background-color:white;
+          color:rgb(37, 35, 35);
+          border-radius: 10px;
+          top: 2420px; 
+          left: 390px; 
+          padding: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          font-size: 18px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+        .names15{
+          position:absolute;
+          background-color:white;
+          color:rgb(37, 35, 35);
+          border-radius: 10px;
+          top: 2420px; 
+          left: 675px; 
+          padding: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          font-size: 18px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+        
+        .names16{
+          position:absolute;
+          background-color:white;
+          color:rgb(37, 35, 35);
+          border-radius: 10px;
+          top: 2420px; 
+          left: 960px; 
+          padding: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          font-size: 18px;
+          font-weight: 500;
+          cursor: pointer;
+        }
+        .names17{
+          position:absolute;
+          background-color:white;
+          color:rgb(37, 35, 35);
+          border-radius: 10px;
+          top: 2655px; 
+          left: 105px; 
+          padding: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          font-size: 18px;
+          font-weight: 500;
+          cursor: pointer;
+          }
+          .names18{
+            position:absolute;
+            background-color:white;
+            color:rgb(37, 35, 35);
+            border-radius: 10px;
+            top: 2655px; 
+            left: 390px; 
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+          }
+          .names19{
+            position:absolute;
+            background-color:white;
+            color:rgb(37, 35, 35);
+            border-radius: 10px;
+            top: 2655px; 
+            left: 675px; 
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+          }
+          
+          .names20{
+            position:absolute;
+            background-color:white;
+            color:rgb(37, 35, 35);
+            border-radius: 10px;
+            top: 2655px; 
+            left: 960px; 
+            padding: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-size: 18px;
+            font-weight: 500;
+            cursor: pointer;
+            
+          }
+.search{
+  background-color:#FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  box-shadow: 10px 10px 15px 5px rgba(131, 129, 129, 0.5);
+  }
+  .navbar{
+    height:60px;
+    box-shadow: 10px 10px 15px 5px rgba(224, 219, 219, 0.5);
+  }
+  
+h5{
+  text-align: left;
+}
+h2{
+  text-align: left;
+  font-size:35px;
+  font-weight: 500;
+}
+.tick{
+  color: #ff1493;
+}
+h1{
+  text-align: left;
+}
+h3{
+  text-align: left;
+}
+.othercountries{
+  color: rgb(105, 96, 96);
+  padding: 32px;
+}
+a {
+  color: rgb(100, 96, 96);
+  text-decoration: none;
+  background-color: white;
+  padding: 5px;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+a:hover {
+  color: #ff1493;
+  font-weight: bold;
+}
+.links{
+  text-align: left;
+  color: #ff1493;
+}
+.links:hover{
+  color:#9c105b;
+}
+.panda{
+  color: rgb(105, 96, 96);
+}
+.front{
+  padding-left: 20px;
+}
+.qna{
+  color: rgb(97, 91, 91);
+  font-weight: 100;
+}
